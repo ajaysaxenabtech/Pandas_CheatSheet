@@ -1,3 +1,10 @@
 #Column properties
 df.info()
 df.dtypes
+
+
+#dropping Columns
+df.drop(labels, axis=1, inplace=False)
+labels: The name(s) of the column(s) you want to drop. This can be a single label or a list of labels.
+axis: Set to 1 to indicate that you are dropping columns (the default is 0, which refers to rows).
+inplace: If set to True, the DataFrame is modified in place and nothing is returned. If False, a new DataFrame is returned.
