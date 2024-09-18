@@ -25,5 +25,7 @@ df = pd.DataFrame({
 # Rearranging columns to order: C, A, B
 df_rearranged = df[['C', 'A', 'B']]
 
+#Pandas Version
+pd.__version__
 
 
